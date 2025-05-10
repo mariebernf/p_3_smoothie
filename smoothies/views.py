@@ -1,9 +1,22 @@
-from django.shortcuts import render, redirect, get_object_or_404
+from django.shortcuts import render, redirect
+from django.contrib.auth.forms import UserCreationForm
+from django.contrib.auth import login
 from django.contrib.auth.decorators import login_required
 from .models import Smoothie
 from .forms import SmoothieForm
 
 # Views
+
+def signup(request):
+    if request.method == 'POST':
+        form = UserCreationForm(request.POST)
+        if form.is_valid():
+            user = form.save()
+            login(request, user)
+            return redirect('smoothie_list')
+    else:
+        form = UserCreationForm()
+    return render(request, 'smoothies/signup.html', {'form': form})
 
 def smoothie_list(request):
     smoothies = Smoothie.objects.all()
