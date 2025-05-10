@@ -5,17 +5,22 @@
 <a href="{% url 'smoothie_create' %}" class="btn btn-success mb-3">Add Smoothie</a>
 
 <div class="row">
-    {% for smoothie in smoothies %}
-    <div class="col-md-4">
-        <div class="card mb-3">
-            <div class="card-body">
-                <h5 class="card-title">{{ smoothie.title }}</h5>
-                <p class="card-text">{{ smoothie.description|truncatewords:20 }}</p>
+    {% for smoothie in smoothies %}   
+ <div class="col-md-4">
+    <div class="card mb-3">
+        <div class="card-body">
+            <h5 class="card-title">{{ smoothie.title }}</h5>
+            <p class="card-text">{{ smoothie.description|truncatewords:20 }}</p>
+            <p class="card-text text-muted">By {{ smoothie.author.username }}</p>
+
+           {% if user == smoothie.author %}
+                <span class="badge bg-success mb-2">Your smoothie</span><br>
                 <a href="{% url 'smoothie_update' smoothie.id %}" class="btn btn-sm btn-primary">Edit</a>
                 <a href="{% url 'smoothie_delete' smoothie.id %}" class="btn btn-sm btn-danger">Delete</a>
-            </div>
+            {% endif %}
         </div>
     </div>
-    {% endfor %}
+</div>
+{% endfor %}
 </div>
 {% endblock %}
