@@ -36,6 +36,12 @@
 
 ---
 
+**Issue:** *The navbar was positioned incorrectly (to the side), and the footer was also incorrectly positioned.*
+
+**Solution:** *The issue was fixed by updating the base html structure, using boothstrap's grid and utility classes.*
+
+---
+
 **Issue:** *.*
 
 **Solution:** *.*
