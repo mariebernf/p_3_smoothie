@@ -1,0 +1,21 @@
+{% extends 'smoothies/base.html %}
+
+{% block content %}
+<h2>Smoothie Share</h2>
+<a href="{% url 'smoothie_create%}" class="btn btn-success mb-3">Add Smoothie</a>
+
+<div class="row">
+    {% for smoothie in smoothies %}
+    <div class="col-md-4">
+        <div class="card mb-3">
+            <div class="card-body">
+                <h5 class="card-title">{{ smoothie.title }}</h5>
+                <p class="card-text">{{ smoothie.description|truncatewords:20 }}</p>
+                <a href="{% url 'smoothie_update' smoothie.id %}" class="btn btn-sm btn-primary">Edit</a>
+                <a href="{% url 'smoothie_delete' smoothie.id %}" class="btn btn-sm btn-danger">Delete</a>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}
