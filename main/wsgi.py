@@ -1,5 +1,5 @@
 """
-WSGI config for main project.
+WSGI config for p_3_smoothie project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -8,9 +8,10 @@ https://docs.djangoproject.com/en/5.2/howto/deployment/wsgi/
 """
 
 import os
+
 from django.core.wsgi import get_wsgi_application
 
+# Set the DJANGO_SETTINGS_MODULE environment variable
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'p_3_smoothie.settings')
-
 
 application = get_wsgi_application()
