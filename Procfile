@@ -1,1 +1,1 @@
-web: gunicorn p_3_smoothie.wsgi --log-file
+web: waitress-serve --listen=0.0.0.0:$PORT main.wsgi:application
