@@ -1,1 +1,1 @@
-web: gunicorn p_3_smoothie.wsgi
+web: gunicorn p3smoothie:app
