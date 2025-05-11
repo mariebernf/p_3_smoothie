@@ -28,7 +28,7 @@ SECRET_KEY = config('DJANGO_SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'p3smoothie.herokuapp.com']
+ALLOWED_HOSTS = ['p3smoothie-bf6a9d7a1c89.herokuapp.com', 'localhost', '127.0.0.1']
 
 # Application definition
 
