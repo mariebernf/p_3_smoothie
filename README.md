@@ -1,10 +1,10 @@
 # p_3_smoothie
 
-View here:[here] [Smoothie Share](https://p3smoothie-bf6a9d7a1c89.herokuapp.com/)
+View here:[Smoothie Share](https://p3smoothie-bf6a9d7a1c89.herokuapp.com/)
 
 ## Description
 
-Smoothie Share is a web app where users can create, share, and find smoothie recipes. It is user friendly, easy navigation means users can easily sign up or login. When logged in users can add new smoothies They can edit and delete their own existing smoothies recipes. 
+Smoothie Share is a web application where users can create, share, and find smoothie recipes. It is user friendly, easy navigation means users can easily sign up or login. When logged in users can add new smoothies  Users can only add, edit and delete their own recipes when logged in. They can not change other users recipes.
 
 ## Project requirments
 
@@ -16,6 +16,27 @@ The project requirements are to create and deploy a full-stack web application u
 * Password:
 
 ## User stories
+
+* User story: As a user, I want to create an account easily so that I can access the website's features.
+  
+  Meets requirment: Signup form
+  Users can create an account by filling out the sign up form, which is easy to find and fill out. When the form is submitted and validated, the user is logged in 
+  and can view the smoothie recipes and add their own.
+
+* User story: As a user, I want to be able to add my smoothie recipes so I can share with other users.
+  
+  Meets requirement: Smoothie creation form
+  Users can add their own smoothie recipes through a form, which allows them to input the smoothie title, description, and ingredients.
+
+* User story: As a user, I want to be able to edit my smoothie recipes.
+
+  Meets requirment: Edit functionality
+  Users can edit their own smoothie recipes. This is ensured by restricting the editing funciton to only the user who created the smoothie recipe.
+
+* As a user, I want to able to delete my smoothie recipes.
+
+  Meets requirment: Delete functionality
+  Users can easily delete their own smoothie recipes. Users can only delete their own recipes.
 
 ## Features
 
