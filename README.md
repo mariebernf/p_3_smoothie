@@ -1,6 +1,10 @@
 # p_3_smoothie
 
+View here: [Smoothie Share](https://p3smoothie-bf6a9d7a1c89.herokuapp.com/)
+
 ## Description
+
+Smoothie Share is a web app where users can create, share, and find smoothie recipes. It is user friendly, easy navigation means users can easily sign up or login. When logged in users can add new smoothies They can edit and delete their own existing smoothies recipes. 
 
 ## Project requirments
 
@@ -13,6 +17,7 @@ The project requirements are to create and deploy a full-stack web application u
 * User Authentication: Users can sign up, log in, and log out.
 * CRUD Operations: Users can create, view, edit and delete their smoothie reciepes.
 * Smoothie List: View a list of all smoothies shared by other users.
+* Only users who created the smoothie recipe has access to edit and delete it.
 
 ## Future Features
 
@@ -20,7 +25,7 @@ The project requirements are to create and deploy a full-stack web application u
 * Users can add images of their smoothie recipes.
 * Users can save other users smoothie recipes to their profile page.
 * Users can rate and comment on other users smoothie recipes.
-
+  
 ## Design
 
 ### Colour scheme
@@ -37,7 +42,7 @@ The project requirements are to create and deploy a full-stack web application u
 
 ## Testing
 
-I have done the following tests:
+I have done the following tests: ( tests.py )
 
 **Smoothie Creation Test:** Verifies that the smoothies are created properly, and the title and author are assigned.
 
