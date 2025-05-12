@@ -58,18 +58,37 @@ The project requirements are to create and deploy a full-stack web application u
 
 ### Colour scheme
 
+* Background colour: Light yellow (#FFFACD)
+* Navbar and Footer colour: Light Navy Blue (#5D6D7E)
+* Text colour: White (#FFFFFF) for headings, and black text in the body for readability.
+
+The light yellow background colour, creats a warm feel for the user. The light navy blue navbar and footer offer a modern look. The overall design is minimalistic, focusing on functionality and ease of navigation.
+
 ### Typography
+
+Primary Font: Montserrat from Google Fonts.
+* Used for navigation, footer and general body text.
+  
+Fallback Font: sans-serif for Montserrat in case it doesn't load.
 
 ### Wireframe
 
 ## Technologies used
 
-* Django: Backend web framwork
+* Django: Backend web framwork.
+* Python: Programming language
 * HTML/CSS: Frontend design
 * Bootstrap: Responsive layout and design
+* Git: Version control
 * Heroku: Deployment platform
 
 ## Tools used
+
+* Github: Platform for hosting code reposistories.
+* Django Admin: Manage content on your app.
+* Chrome DevTools: Used to inspect elemnts, debug and troubleshoot.
+* Google fonts: For customizing fonts.
+* VSCode: Used to write and manage code.
 
 ## Deployment
 
