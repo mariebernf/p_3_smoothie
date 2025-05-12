@@ -4,6 +4,8 @@
 
 ## Project requirments
 
+The project requirements are to create and deploy a full-stack web application using Django. Users must be able to log in and perfum CRUD operations, Create, Read, Update and Delete. The site should be user friendly and responsive. It must be deployed on Heroku.
+
 ## User stories
 
 ## Design
