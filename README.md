@@ -42,9 +42,15 @@
 
 ---
 
-**Issue:** *.*
+**Issue:** *After deploying to heroku, the application would not load.*
 
-**Solution:** *.*
+**Solution:** *Several changes were made to try to solve this:*
+1. Used heroku logs --tail to check logs and identify the issues.
+2.  Fixed Procfile. I had initially named it procfile(lowercase) which caused problems.
+3.  Updated allowed hosts in settings.
+4.  I manually entered secret key to heroku's environment variables.
+5.  Addressed various issues relating to incorrect paths in urls and settings that were discovered during the troubleshooting process.
+6.  Triggered a rebuild so heroku would regognize the changed Procfile name, this worked to set up the application correctly.
 
 ---
 
