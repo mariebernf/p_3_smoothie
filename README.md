@@ -54,5 +54,8 @@
 
 ---
 
+**Issue:** *CSRF verification failed error.*
+
+**Solution:** *Was missing csrf settings. I added the heroku domain to the csrf trusted origins in settings.*
 
 ## Credits
