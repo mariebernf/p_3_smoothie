@@ -8,6 +8,19 @@ The project requirements are to create and deploy a full-stack web application u
 
 ## User stories
 
+## Features
+
+* User Authentication: Users can sign up, log in, and log out.
+* CRUD Operations: Users can create, view, edit and delete their smoothie reciepes.
+* Smoothie List: View a list of all smoothies shared by other users.
+
+## Future Features
+
+* A profile page for users.
+* Users can add images of their smoothie recipes.
+* Users can save other users smoothie recipes to their profile page.
+* Users can rate and comment on other users smoothie recipes.
+
 ## Design
 
 ### Colour scheme
@@ -23,6 +36,12 @@ The project requirements are to create and deploy a full-stack web application u
 ## Deployment
 
 ## Testing
+
+I have done the following tests:
+
+**Smoothie Creation Test:** Verifies that the smoothies are created properly, and the title and author are assigned.
+
+**Smoothie List View Test:** Ensures that smoothie liste page returns a 200 status code and displays the correct smoothie title.
 
 ## Bugs and Fixes
 
