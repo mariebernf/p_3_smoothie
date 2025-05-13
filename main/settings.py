@@ -135,5 +135,3 @@ LOGOUT_REDIRECT_URL = '/'
 CSRF_COOKIE_SECURE = True
 
 CSRF_TRUSTED_ORIGINS = ['https://p3smoothie-bf6a9d7a1c89.herokuapp.com']
-
-DISABLE_COLLECTSTATIC = 1
