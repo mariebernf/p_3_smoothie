@@ -8,7 +8,7 @@ Smoothie Share is a web application where users can create, share, and find smoo
 
 ## Project requirments
 
-The project requirements are to create and deploy a full-stack web application using Django. Users must be able to log in and perfum CRUD operations, Create, Read, Update and Delete. The site should be user friendly and responsive. It must be deployed on Heroku.
+The project requirements are to create and deploy a data centric web application using Django. Users must be able to log in and perfum CRUD operations, Create, Read, Update and Delete. The site should be user friendly and responsive. It must be deployed on Heroku.
 
 ## Accessing the App / Superuser 
 
@@ -226,7 +226,7 @@ Pop-up Alert: Verified the "Task added successfully!" pop-up message appears whe
 **Temporary solution for uploading images to Readme. Due to the static issues that I did not have time to resolve. I used Imgur to upload and host images for this project to 
   the Readme.**
 
-**Unfortunaly due the time constraints and to submit my project on time, I had to something to stop my website from crashing ( Repeatedly ) from the issue with the static files. I disabled 
+**Unfortunaly due the time constraints and to submit my project on time, I had to something to stop my website from crashing (Repeatedly) from the issue with the static files. I disabled 
   the static files and disabled the collectstatic as the only soulution I could find in a short space of time. I of course will try to learn from this and take time to find 
   out what went wrong and how to resolve it properly.**
 
