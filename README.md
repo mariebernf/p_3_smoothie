@@ -10,11 +10,6 @@ Smoothie Share is a web application where users can create, share, and find smoo
 
 The project requirements are to create and deploy a data centric web application using Django. Users must be able to log in and perfum CRUD operations, Create, Read, Update and Delete. The site should be user friendly and responsive. It must be deployed on Heroku.
 
-## Accessing the App / Superuser 
-
-* Username: marie
-* Password: Sweden100
-
 ## User stories
 
 * User story: As a user, I want to create an account easily so that I can access the website's features.
