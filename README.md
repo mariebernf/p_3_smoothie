@@ -164,6 +164,10 @@ I have done the following tests: ( tests.py )
 **Temporary solution for uploading images to Readme. Due to the static issues that I did not have time to resolve. I used Imgur to upload and host images for this project to 
   the Readme.**
 
+**Unfortunaly due the time constraints and to submit my project on time, I had to something to stop my website from crashing from the issue with the static files. I disabled 
+  the static files and disabled the collectstatic as the only soulution I could find in a short space of time. I of course will try to learn from this and take time to find 
+  out what went wrong and how to resolve it properly.**
+
 ## Credits
 
 **Youtube tutorial Django Recipe Sharing Tutorial by Dom Vacchiano. I used this video as a guide along with my own code, some python conventions and patterns used are 
