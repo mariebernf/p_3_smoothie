@@ -100,6 +100,13 @@ I have done the following tests: ( tests.py )
 
 **Smoothie List View Test:** Ensures that smoothie liste page returns a 200 status code and displays the correct smoothie title.
 
+---
+
+# Lighthouse reports: 
+
+![Lighthouse Smoothie](https://i.imgur.com/zBEZ6sM.png)
+
+
 ## Bugs and Fixes
 
 **Issue:** *Name Error: name 'include' was not defined.*
@@ -123,7 +130,7 @@ I have done the following tests: ( tests.py )
 **Issue:** *After deploying to heroku, the application would not load.*
 
 **Solution:** *Several changes were made to try to solve this:*
-1. Used heroku logs --tail to check logs and identify the issues.
+1.  Used heroku logs --tail to check logs and identify the issues.
 2.  Fixed Procfile. I had initially named it procfile(lowercase) which caused problems.
 3.  Updated allowed hosts in settings.
 4.  I manually entered secret key to heroku's environment variables.
@@ -134,6 +141,15 @@ I have done the following tests: ( tests.py )
 
 **Issue:** *CSRF verification failed error.*
 
-**Solution:** *Was missing csrf settings. I added the heroku domain to the csrf trusted origins in settings
+**Solution:** *Was missing csrf settings. I added the heroku domain to the csrf trusted origins in settings.*
+
+---
+
+**Issue:** *Static files Issue: The app is not loading static files.*
+
+**Solution:** *Unfortuanly I did not have the time to fix this. I had to delete the file so I could move on.*
+**Future solutions:** 
+* Go over the settings.py in more detail and check the static settings are correctly configured.
+* Recreate the static folder and troubleshoot more.
 
 ## Credits
