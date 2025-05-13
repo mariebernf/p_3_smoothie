@@ -23,10 +23,14 @@ The project requirements are to create and deploy a full-stack web application u
   Users can create an account by filling out the sign up form, which is easy to find and fill out. When the form is submitted and validated, the user is logged in 
   and can view the smoothie recipes and add their own.
 
+  ![Sign up form](https://i.imgur.com/0mRw8Wd.png)
+
 * User story: As a user, I want to be able to add my smoothie recipes so I can share with other users.
   
   Meets requirement: Smoothie creation form
   Users can add their own smoothie recipes through a form, which allows them to input the smoothie title, description, and ingredients.
+
+  ![Creation form](https://i.imgur.com/XRAMX4C.png)
 
 * User story: As a user, I want to be able to edit my smoothie recipes.
 
@@ -38,6 +42,10 @@ The project requirements are to create and deploy a full-stack web application u
   Meets requirment: Delete functionality
   Users can easily delete their own smoothie recipes. Users can only delete their own recipes.
 
+   ![Edit and delete functionality](https://i.imgur.com/lZ79B7R.png)
+
+  ---
+  
 ## Features
 
 * User Authentication: Users can sign up, log in, and log out.
