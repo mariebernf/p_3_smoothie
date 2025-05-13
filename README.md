@@ -225,6 +225,14 @@ Pop-up Alert: Verified the "Task added successfully!" pop-up message appears whe
   the static files and disabled the collectstatic as the only soulution I could find in a short space of time. I of course will try to learn from this and take time to find 
   out what went wrong and how to resolve it properly.**
 
+**Currently I am trying to work my way back to the point where my site started to crash. The soloution above only works for a few minutes before the site crashes again. I have made the following changes:** 
+* I switched from waitress to gunicorn. 
+* Checked the setting.py to ensure proper static file handling. 
+* I have recreated the static folder and linked the css file correctly in the base.html, and am using the {% load static %} at the top of the file.
+  
+  **Result:**
+  * The site is now live again after the steps taken but the navbar, footer or css styling is not showing.
+    
 ## Credits
 
 **Youtube tutorial Django Recipe Sharing Tutorial by Dom Vacchiano. I used this video as a guide along with my own code, some python conventions and patterns used are 
