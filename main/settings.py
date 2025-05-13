@@ -46,7 +46,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware',
+    ## 'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -135,3 +135,5 @@ LOGOUT_REDIRECT_URL = '/'
 CSRF_COOKIE_SECURE = True
 
 CSRF_TRUSTED_ORIGINS = ['https://p3smoothie-bf6a9d7a1c89.herokuapp.com']
+
+DISABLE_COLLECTSTATIC = 1
