@@ -81,6 +81,10 @@ Fallback Font: sans-serif for Montserrat in case it doesn't load.
 
 ### Wireframe
 
+*Rough outline of wireframes for mobile and larger screens*
+
+[See here](wireframes.md)
+
 ## Technologies used
 
 * Django: Backend web framwork.
