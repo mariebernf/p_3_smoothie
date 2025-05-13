@@ -1,0 +1,30 @@
+ html, body {
+            height: 100%;
+        }
+
+        body {
+            background-color: #FFFACD;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            font-family: 'Montserrat', sans-serif;
+        }
+        main {
+            flex: 1;
+        }
+
+        nav { 
+            background-color: #5D6D7E;
+            color: white;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        footer {
+            background-color: #5D6D7E; 
+            color: white;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .navbar-brand {
+            color: white;
+        }
