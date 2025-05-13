@@ -149,7 +149,34 @@ I have done the following tests: ( tests.py )
 
  ---
 
+ # W3C CSS Validator 
 
+ ![W3c](https://i.imgur.com/ntbwiSn.png)
+
+**Manual testing:**
+
+Responsiveness: 
+
+The website is responsive on different devices and browsers: Tested on mobile and laptop screens, on Google chrome, Safari and microsoft edge.
+
+**Features:**
+
+* Sign up form: Verified user can register using the sign up form.
+* Login: Verified users can login using the login button.
+
+**When logged in users can:**
+
+* Add a smoothie recipe :Verified users can add smoothie recipe.
+* Save their smoothie recipe: Verified users can save their recipe.
+* Delete button: Verified that users can delete their recipe.
+* Edit button: Verified that users can edit their recipe.
+* Verified users when logged in can see other members/users ingriedients list.
+* Log out: verified users can log out.
+
+
+Task status and checkbox: Verified that when the task is checked off using the checkbox, it will display a line through the text.
+
+Pop-up Alert: Verified the "Task added successfully!" pop-up message appears when a task is successfully added.
 
 ## Bugs and Fixes
 
@@ -199,7 +226,7 @@ I have done the following tests: ( tests.py )
 **Temporary solution for uploading images to Readme. Due to the static issues that I did not have time to resolve. I used Imgur to upload and host images for this project to 
   the Readme.**
 
-**Unfortunaly due the time constraints and to submit my project on time, I had to something to stop my website from crashing from the issue with the static files. I disabled 
+**Unfortunaly due the time constraints and to submit my project on time, I had to something to stop my website from crashing ( Repeatedly ) from the issue with the static files. I disabled 
   the static files and disabled the collectstatic as the only soulution I could find in a short space of time. I of course will try to learn from this and take time to find 
   out what went wrong and how to resolve it properly.**
 
