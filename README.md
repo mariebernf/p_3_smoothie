@@ -141,6 +141,15 @@ I have done the following tests: ( tests.py )
 
 [View Lighthouse Reports](./lighthouse.md)
 
+---
+
+# W3C Markup Validation
+
+ ![W3c](https://i.imgur.com/8TjBBbM.png)
+
+ ---
+
+
 
 ## Bugs and Fixes
 
