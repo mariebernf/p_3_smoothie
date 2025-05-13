@@ -89,6 +89,7 @@ Fallback Font: sans-serif for Montserrat in case it doesn't load.
 * Chrome DevTools: Used to inspect elemnts, debug and troubleshoot.
 * Google fonts: For customizing fonts.
 * VSCode: Used to write and manage code.
+* Imgur: Used to upload and host images.
 
 ## Deployment
 
@@ -152,9 +153,13 @@ I have done the following tests: ( tests.py )
 * Go over the settings.py in more detail and check the static settings are correctly configured.
 * Recreate the static folder and troubleshoot more.
 
+**Temporary solution for uploading images to Readme. Due to the static issues that I did not have time to resolve. I used Imgur to upload and host images for this project to 
+  the Readme.**
+
 ## Credits
 
-**Youtube tutorial Django Recipe Sharing Tutorial by Dom Vacchiano. I used as a guide with my own code, some python conventions and patterns used are similar.**
+**Youtube tutorial Django Recipe Sharing Tutorial by Dom Vacchiano. I used this video as a guide along with my own code, some python conventions and patterns used are 
+  similar.**
 
 [See video here](https://www.youtube.com/watch?v=w7EJu9Gd5Ns&list=PLQbt1tI_yQHg5HYpdUqit1wkc4BOPTkpx&index=1)
 
