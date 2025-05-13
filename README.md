@@ -105,6 +105,28 @@ Fallback Font: sans-serif for Montserrat in case it doesn't load.
 
 ## Deployment
 
+**Deployment steps:**
+* Prepare Django App by adding a Profile with gunicorn.
+* Set environment variable for SECRET KEY.
+* Create Heroku App.
+* Link Github and Heroku.
+* Run migrations.
+* Access the app through heroku open.
+
+**Forking the Repository:**
+* Log in to Github. Locate the "fork" button just above the "Settings" button at the top of the page. Click the "Fork" button.
+* You will now have a copy of the orginal repository in your Github.
+* You can view and make changes without affecting the original repository.
+  
+**Cloning the Github Respository:**
+* Choose the location where you want to store the cloned repository.
+* Open your terminal or command prompt.
+* In the terminal, type the folling command:
+* git clone and your https://github.com/yourusername/your-repo.git
+* After cloning the repository, change the directory into the project folder by using the cd command:
+*cd your-repo-name
+*Now you can open the cloned repository in a code editor and make changes.
+
 ## Testing
 
 I have done the following tests: ( tests.py )
