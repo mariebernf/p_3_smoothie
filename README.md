@@ -153,3 +153,13 @@ I have done the following tests: ( tests.py )
 * Recreate the static folder and troubleshoot more.
 
 ## Credits
+
+**Youtube tutorial Django Recipe Sharing Tutorial by Dom Vacchiano. I used as a guide with my own code, some python conventions and patterns used are similar.**
+
+[See video here](https://www.youtube.com/watch?v=w7EJu9Gd5Ns&list=PLQbt1tI_yQHg5HYpdUqit1wkc4BOPTkpx&index=1)
+
+---
+
+**Youtube tutorial Django Recipe Sharing Tutorial by Dee Mc. I used as a guide with my own code, some python conventions and patterns used are similar.**
+
+[See video here](https://www.youtube.com/watch?v=sBjbty691eI&list=PLXuTq6OsqZjbCSfiLNb2f1FOs8viArjWy)
