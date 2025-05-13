@@ -10,10 +10,10 @@ Smoothie Share is a web application where users can create, share, and find smoo
 
 The project requirements are to create and deploy a full-stack web application using Django. Users must be able to log in and perfum CRUD operations, Create, Read, Update and Delete. The site should be user friendly and responsive. It must be deployed on Heroku.
 
-## Accessing the App
+## Accessing the App / Superuser 
 
-* Username:
-* Password:
+* Username: marie
+* Password: Sweden100
 
 ## User stories
 
@@ -104,7 +104,7 @@ I have done the following tests: ( tests.py )
 
 # Lighthouse reports: 
 
-![Lighthouse Smoothie](https://i.imgur.com/zBEZ6sM.png)
+[View Lighthouse Reports](./lighthouse.md)
 
 
 ## Bugs and Fixes
