@@ -242,3 +242,14 @@ Pop-up Alert: Verified the "Task added successfully!" pop-up message appears whe
 **Youtube tutorial Django Recipe Sharing Tutorial by Dee Mc. I used as a guide with my own code, some python conventions and patterns used are similar.**
 
 [See video here](https://www.youtube.com/watch?v=sBjbty691eI&list=PLXuTq6OsqZjbCSfiLNb2f1FOs8viArjWy)
+
+---
+
+**Google Fonts:** Montserrat Font from [Google Fonts](https://fonts.google.com/)
+
+**Canva:** Wireframe from [Canva](https://www.canva.com/)
+
+**Imgur:** Images upload using [IMGUR](https://imgur.com/)
+
+
+
