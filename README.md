@@ -124,14 +124,6 @@ Fallback Font: sans-serif for Montserrat in case it doesn't load.
 
 ## Testing
 
-I have done the following tests: ( tests.py )
-
-**Smoothie Creation Test:** Verifies that the smoothies are created properly, and the title and author are assigned.
-
-**Smoothie List View Test:** Ensures that smoothie liste page returns a 200 status code and displays the correct smoothie title.
-
----
-
 # Lighthouse reports: 
 
 [View Lighthouse Reports](./lighthouse.md)
