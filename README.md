@@ -4,7 +4,7 @@ View here:[Smoothie Share](https://p3smoothie-bf6a9d7a1c89.herokuapp.com/)
 
 ## Description
 
-Smoothie Share is a web application where users can create, share, and find smoothie recipes. It is user friendly, easy navigation means users can easily sign up or login. When logged in users can add new smoothies  Users can only add, edit and delete their own recipes when logged in. They can not change other users recipes. Smoothie ingredients are shown for logged in users. Non-logged in users will see a prompt to log in. This will encourage people to sign up.
+Smoothie Share is a web application where users can create, share, and find smoothie recipes. It is user friendly, and its easy navigation means users can easily sign up or login. When logged in users can add new smoothies  Users can only add, edit and delete their own recipes when logged in. They can not change other users recipes. Smoothie ingredients are shown for logged in users. Non-logged in users will see a prompt to log in. This will encourage people to sign up.
 
 ## Project requirments
 
@@ -62,10 +62,10 @@ The project requirements are to create and deploy a data centric web application
 ### Colour scheme
 
 * Background colour: Light yellow (#FFFACD)
-* Navbar and Footer colour: Light Navy Blue (#5D6D7E)
+* Navbar and Footer colour: Light Blue/Gray (#5D6D7E)
 * Text colour: White (#FFFFFF) for headings, and black text in the body for readability.
 
-The light yellow background colour, creats a warm feel for the user. The light navy blue navbar and footer offer a modern look. The overall design is minimalistic, focusing on functionality and ease of navigation.
+The light yellow background colour, creats a warm feel for the user. The light blue/gray navbar and footer offer a modern look. The overall design is minimalistic, focusing on functionality and ease of navigation.
 
 ### Typography
 
@@ -232,6 +232,9 @@ Pop-up Alert: Verified the "Task added successfully!" pop-up message appears whe
   
   **Result:**
   * The site is now live again after the steps taken but the navbar, footer or css styling is not showing.
+  * After troubleshooting, I added the database_url to the env file. I added dotenv to requirments.txt. The formatting issue was then resolved.
+  * I did continue to try and add immages, and a favicon, this is where I ran into trouble again. Unfortunally I did not have time to troubleshoot and deleted the favicons.
+  * My site is depoyed successfully and the formatting is now working as expected.
     
 ## Credits
 
@@ -253,6 +256,10 @@ Pop-up Alert: Verified the "Task added successfully!" pop-up message appears whe
 **Canva:** Wireframe from [Canva](https://www.canva.com/)
 
 **Imgur:** Images upload using [IMGUR](https://imgur.com/)
+
+**Favicon:** Favicon [Favicon](https://favicon.io/)
+
+**Font Awsome:** Social media icons [Font Awsome](https://fontawesome.com/)
 
 
 
