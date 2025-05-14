@@ -28,11 +28,4 @@ footer {
 
 .navbar-brand {
     color: white;
-    flex-grow: 1;
-    text-align: center;
-}
-
-.navbar-logo {
-    max-height: 50px;
-    width: auto;
 }
